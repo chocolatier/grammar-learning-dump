@@ -270,6 +270,6 @@ add_plugin("GreedySuccessSearcher")
 add_plugin("ExecuteNStates")
 
 pluginsConfig.ExecuteNStates = {
-    maxCompletions=5
+    maxCompletions=200
 }
 

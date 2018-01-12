@@ -266,8 +266,8 @@ pluginsConfig.TestCaseGenerator = {
 }
 
 add_plugin("RestrictAscii")
-add_plugin("ExecuteNStates")
+-- add_plugin("ExecuteNStates")
 
 pluginsConfig.ExecuteNStates = {
-    maxCompletions=10
+    maxCompletions=200
 }

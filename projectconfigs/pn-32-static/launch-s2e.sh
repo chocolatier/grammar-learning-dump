@@ -22,8 +22,8 @@ fi
 DRIVE="-drive file=$ENV_DIR/images/debian-8.7.1-i386/image.raw.s2e,format=s2e,cache=writeback"
 
 #echo "Using config file $1"
-#export S2E_CONFIG=s2e-config.lua
-echo "Config file set to $S2E_CONFIG"
+export S2E_CONFIG=s2e-config-dfs.lua
+#echo "Config file set to $S2E_CONFIG"
 export S2E_SHARED_DIR=$INSTALL_DIR/share/libs2e
 export S2E_MAX_PROCESSES=1
 export S2E_UNBUFFERED_STREAM=1

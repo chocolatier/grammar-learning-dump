@@ -21,7 +21,8 @@ s2e = {
     -- Most of the options can be found in S2EExecutor.cpp and Executor.cpp.
     kleeArgs = {
 	"--verbose-fork-info",
-	"--fork-on-symbolic-address=false"
+	"--fork-on-symbolic-address=false",
+	"--use-query-log=all:smt2"
    },
 }
 
@@ -266,9 +267,9 @@ pluginsConfig.TestCaseGenerator = {
 
 add_plugin("RestrictAscii")
 
-add_plugin("ExecuteNStates")
+-- add_plugin("ExecuteNStates")
 
 pluginsConfig.ExecuteNStates = {
-    maxCompletions=10
+    maxCompletions=200
 }
 
