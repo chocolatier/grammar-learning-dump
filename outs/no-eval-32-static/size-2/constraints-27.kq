@@ -1,4 +1,6 @@
-(Eq false
+array v0___symfile____tmp_input___0_1_symfile___0[2] : w32 -> w8 = symbolic
+
+(query[(Eq false
      (Slt 0x39
           (SExt w32 (Read w8 0x1 v0___symfile____tmp_input___0_1_symfile___0))))
 (Eq false
@@ -56,4 +58,6 @@
 (Ule (Read w8 0x1 v0___symfile____tmp_input___0_1_symfile___0) 0x7e)
 (Ule 0x20 (Read w8 0x1 v0___symfile____tmp_input___0_1_symfile___0))
 (Ule (Read w8 0x0 v0___symfile____tmp_input___0_1_symfile___0) 0x7e)
-(Ule 0x20 (Read w8 0x0 v0___symfile____tmp_input___0_1_symfile___0))
+(Ule 0x20 (Read w8 0x0 v0___symfile____tmp_input___0_1_symfile___0))]
+false []
+ [v0___symfile____tmp_input___0_1_symfile___0])
